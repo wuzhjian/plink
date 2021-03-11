@@ -8,6 +8,18 @@ Platform for [Apache Flink](https://flink.apache.org)
 ## 目标
 我们的目标，大家共同参与，赶紧 [联系我们](#联系我们)，一起进步吧！（只要你主动，我们就会有故事 。。。）
 
+
+```
+set http_proxy=http://127.0.0.1:10809
+set https_proxy=http://127.0.0.1:10809
+
+http_proxy=192.168.10.91:3128
+https_proxy=192.168.10.91:3128
+ftp_proxy=192.168.10.91:3128
+no_proxy="127.0.0.1, localhost, 172.26.*, 172.25.6.66, 192.168.*"
+
+export http_proxy=http://127.0.0.1:10809
+export https_proxy=http://127.0.0.1:10809```
 ## 特性
 
 1. 作业管理（v0.1）
